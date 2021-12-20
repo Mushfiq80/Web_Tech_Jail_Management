@@ -1,0 +1,167 @@
+*{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+}
+
+.banner
+{
+		width: 100%;
+		height: 100vh;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url("images/i.jpg");
+		background-size: cover;
+		background-position: center;
+}
+.home
+{
+		width: 100%;
+		height: 100vh;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url("images/h.jpg");
+		background-size: cover;
+		background-position: center;
+}
+.content{
+		width: 100%;
+		position: absolute;
+		top: 250px;
+		transform: translateY(-50%);
+		text-align: center;
+		color: white;
+}
+.content h1{
+		font-size: 70px;
+		margin-top: 80px;
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text align: center;
+	margin: 20px 10px;
+	border-radius: 20px;
+	font-size: 110%;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+span{
+	background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+
+}
+button:hover span{
+	width: 100%;
+}
+button:hover {
+	border: none;
+}
+
+.logo{
+	width: 100%;
+	text-align: center;
+	}
+.logo img{
+	width: 100px;
+	padding: 15px 0;
+	text align: center;
+	margin: 20px 10px;
+	border-radius: 20px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url("images/l.jpg");
+	background-size: cover;
+}
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white; 
+}
+.login-form{
+    width: 300px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    align-items: center;
+}
+.login-form h2 {
+    color: white;
+    border-bottom: 3px solid #009688;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.input-feild{
+    margin-bottom: 10px;
+    width: 90%;
+    height: 19px;
+    padding: 10px;
+    background: transparent;
+    color: white; 
+}
+.view{
+		width: 100%;
+		height: 100vh;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url("images/v.jpg");
+		background-size: cover;
+		background-position: center;
+}
+.register{
+		width: 100%;
+		height: 100vh;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url("images/p.jpg");
+		background-size: cover;
+		background-position: center;
+}
+
+.header{
+	text-align: right;
+	margin-right: 10%;
+}
+.nav-links{
+	padding: 28px 0;	
+}
+.nav-links li{
+	display: inline-block;
+	margin: 0 15px;
+}
+.nav-links li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 0;
+}
+.registration-form h2{
+	color: white;
+	margin-left: 2%;
+    border-bottom: 3px solid #009688;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.pregistration-form{
+    width: 300px;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    align-items: center;
+}

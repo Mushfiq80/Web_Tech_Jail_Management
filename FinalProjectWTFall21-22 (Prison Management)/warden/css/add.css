@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(58, 57, 64, 0.884);
+    padding: 20px;
+}
+h1
+{
+    color: white;
+    background-color: rgb(0, 0, 0);
+  
+  }
+  a:link {
+     
+    color: rgb(0, 81, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color:rgb(76, 0, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 0, 0);
+  }
+  button
+{
+    background-color:rgb(4, 69, 71);
+    width:10%;
+    height: 7%;
+}
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+}
+.content-table tbody tr:nth-of-type(even){
+background-color: rgb(231, 220, 220);
+}
+.content-table tbody tr{
+    border-bottom: 1px solid white;
+}
+input[type=submit] {
+    
+    width: 50%;
+    
+    background-color: #f12020;
+    color: rgb(248, 242, 242);
+    padding: 5px 5px;
+    
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ffffff
+  }
+  td{
+      color: rgb(0, 0, 0);
+  }
+  * navbar a
+  {
+    text-decoration: none;
+
+  }
